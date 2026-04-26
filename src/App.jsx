@@ -48,7 +48,11 @@ function App() {
   useEffect(() => {
     const loadRoutines = async () => {
       try {
-        const response = await fetch('/mygym-app/routines.json');
+        const baseUrl = import.meta.env.BASE_URL;
+        const response = await fetch(`${baseUrl}routines.json`);
+        if (!response.ok) {
+          throw new Error(`Failed to fetch routines: ${response.status}`);
+        }
         const data = await response.json();
         setRoutines(data.routines || []);
       } catch (error) {
