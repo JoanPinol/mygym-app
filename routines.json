@@ -1,0 +1,124 @@
+{
+  "routines": [
+    {
+      "id": "day-1",
+      "title": "Day 1: Upper Strength & Abs",
+      "blocks": [
+        {
+          "category": "warmup",
+          "rounds": 1,
+          "exercises": [
+            { "id": "d1-w1", "name": "Jump Rope", "description": "Gentle rhythm to get the heart rate up.", "goal": "5 min", "type": "timed", "duration": 300, "equipment": "Jump rope" }
+          ]
+        },
+        {
+          "category": "main",
+          "rounds": 4,
+          "exercises": [
+            { "id": "d1-m1", "name": "Push-ups", "description": "Keep core tight, chest to floor. 10-12 reps.", "goal": "12 reps", "type": "reps", "equipment": "None" },
+            { "id": "d1-m2", "name": "Resistance Band Row", "description": "Step on band, pull towards hips, squeeze shoulder blades.", "goal": "15 reps", "type": "reps", "equipment": "Resistance band" },
+            { "id": "d1-m3", "name": "Ab Wheel", "description": "Control the roll-out, do not arch your lower back.", "goal": "10 reps", "type": "reps", "equipment": "Ab roller" },
+            { "id": "d1-m4", "name": "Shoulder Press", "description": "Slow eccentric (downward) phase. Use 2kg dumbbells.", "goal": "20 reps", "type": "reps", "equipment": "2kg Dumbbells" }
+          ]
+        },
+        {
+          "category": "cooldown",
+          "rounds": 1,
+          "exercises": [
+            { "id": "d1-c1", "name": "Plank", "description": "Hold as long as possible with perfect form.", "goal": "Max Time", "type": "timed", "duration": 60, "equipment": "None" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "title": "Day 2: Combat Cardio & Agility",
+      "blocks": [
+        {
+          "category": "warmup",
+          "rounds": 1,
+          "exercises": [
+            { "id": "d2-w1", "name": "Mobility", "description": "Circle arms and neck to release tension.", "goal": "5 min", "type": "timed", "duration": 300, "equipment": "None" }
+          ]
+        },
+        {
+          "category": "main",
+          "rounds": 4,
+          "exercises": [
+            { "id": "d2-m1", "name": "Heavy Bag", "description": "Constant punches: Jab, cross, hooks.", "goal": "3 min", "type": "timed", "duration": 180, "equipment": "Heavy bag" },
+            { "id": "d2-m2", "name": "Fast Jump Rope", "description": "High intensity, fast pace.", "goal": "1 min", "type": "timed", "duration": 60, "equipment": "Jump rope" },
+            { "id": "d2-m3", "name": "Rest", "description": "Deep breaths, total recovery.", "goal": "1 min", "type": "timed", "duration": 60, "equipment": "None" }
+          ]
+        },
+        {
+          "category": "cooldown",
+          "rounds": 1,
+          "exercises": [
+            { "id": "d2-c1", "name": "Shadow Boxing", "description": "Light shadow boxing with 1kg weights.", "goal": "5 min", "type": "timed", "duration": 300, "equipment": "1kg Dumbbells" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "title": "Day 3: Lower Body & Core",
+      "blocks": [
+        {
+          "category": "warmup",
+          "rounds": 1,
+          "exercises": [
+            { "id": "d3-w1", "name": "Jump Rope", "description": "Standard warm-up rhythm.", "goal": "5 min", "type": "timed", "duration": 300, "equipment": "Jump rope" }
+          ]
+        },
+        {
+          "category": "main",
+          "rounds": 4,
+          "exercises": [
+            { "id": "d3-m1", "name": "Squats", "description": "Back straight, hips low.", "goal": "20 reps", "type": "reps", "equipment": "None" },
+            { "id": "d3-m2", "name": "Lunges", "description": "12 reps per leg. Keep torso upright.", "goal": "24 reps", "type": "reps", "equipment": "Dumbbells (optional)" },
+            { "id": "d3-m3", "name": "Glute Bridge", "description": "Lying face up, lift hips with band above knees.", "goal": "15 reps", "type": "reps", "equipment": "Resistance band" },
+            { "id": "d3-m4", "name": "Ab Wheel", "description": "Controlled rollout, focus on core tension.", "goal": "10 reps", "type": "reps", "equipment": "Ab roller" }
+          ]
+        },
+        {
+          "category": "cooldown",
+          "rounds": 1,
+          "exercises": [
+            { "id": "d3-c1", "name": "Stretching", "description": "Gentle leg and lumbar stretches.", "goal": "5 min", "type": "timed", "duration": 300, "equipment": "None" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "title": "Day 4: Full Body Metabolic Circuit",
+      "blocks": [
+        {
+          "category": "warmup",
+          "rounds": 1,
+          "exercises": [
+            { "id": "d4-w1", "name": "Light Bag Work", "description": "Light intensity on the heavy bag.", "goal": "5 min", "type": "timed", "duration": 300, "equipment": "Heavy bag" }
+          ]
+        },
+        {
+          "category": "main",
+          "rounds": 5,
+          "exercises": [
+            { "id": "d4-m1", "name": "Jump Rope", "description": "High pace cardio.", "goal": "1 min", "type": "timed", "duration": 60, "equipment": "Jump rope" },
+            { "id": "d4-m2", "name": "Fast Push-ups", "description": "Explosive movement.", "goal": "12 reps", "type": "reps", "equipment": "None" },
+            { "id": "d4-m3", "name": "Bicep Curls", "description": "Use resistance band, full range of motion.", "goal": "15 reps", "type": "reps", "equipment": "Resistance band" },
+            { "id": "d4-m4", "name": "Mountain Climbers", "description": "Keep hips low, knees to chest.", "goal": "30 sec", "type": "timed", "duration": 30, "equipment": "None" },
+            { "id": "d4-m5", "name": "Rest", "description": "One minute break before the next round.", "goal": "1 min", "type": "timed", "duration": 60, "equipment": "None" }
+          ]
+        },
+        {
+          "category": "cooldown",
+          "rounds": 1,
+          "exercises": [
+            { "id": "d4-c1", "name": "Slow Jump Rope", "description": "Slow rhythm to recover heart rate.", "goal": "5 min", "type": "timed", "duration": 300, "equipment": "Jump rope" }
+          ]
+        }
+      ]
+    }
+  ]
+}
